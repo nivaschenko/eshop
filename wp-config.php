@@ -17,19 +17,39 @@
  *
  * @package WordPress
  */
-
+		//    LOCAL    //
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'eshop');
+//define('DB_NAME', 'eshop');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'eshop_user');
+//define('DB_USER', 'eshop_user');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'hazayErA');
+//define('DB_PASSWORD', 'hazayErA');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+//define('DB_HOST', 'localhost');
+
+/** Кодировка базы данных для создания таблиц. */
+//define('DB_CHARSET', 'utf8mb4');
+
+/** Схема сопоставления. Не меняйте, если не уверены. */
+//define('DB_COLLATE', '');
+
+		//    STAGE    //
+// ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
+/** Имя базы данных для WordPress */
+define('DB_NAME', 'u628518366_eshop');
+
+/** Имя пользователя MySQL */
+define('DB_USER', 'u628518366_user');
+
+/** Пароль к базе данных MySQL */
+define('DB_PASSWORD', 'TsKae91WGdAd');
+
+/** Имя сервера MySQL */
+define('DB_HOST', 'mysql.hostinger.com.ua');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8mb4');
